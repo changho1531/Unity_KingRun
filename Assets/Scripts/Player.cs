@@ -184,7 +184,6 @@ public class MobileCharacterController : MonoBehaviour
     private void EndGame()
     {
         Debug.Log("게임 오버!");
-        Debug.Log("게임 끝났다 그만 할까?");
         mapMovement.enabled = false;
         Destroy(obstacleSpawner);
         Destroy(gameObject); // 플레이어 오브젝트를 파괴
